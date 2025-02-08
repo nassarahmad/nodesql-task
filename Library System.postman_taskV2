@@ -13,7 +13,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"id\": 1,\r\n  \"name\": \"George Orwell\",\r\n  \"title\": \"1984\"\r\n}",
+					"raw": "{\r\n  \"id\": 7,\r\n  \"name\": \"George Orwell\",\r\n  \"title\": \"1984\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -21,12 +21,12 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3001/books",
+					"raw": "http://localhost:3000/books",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "3001",
+					"port": "3000",
 					"path": [
 						"books"
 					]
@@ -40,21 +40,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3001/books/:1",
+					"raw": "http://localhost:3000/books/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "3001",
+					"port": "3000",
 					"path": [
 						"books",
-						":1"
-					],
-					"variable": [
-						{
-							"key": "1",
-							"value": ""
-						}
+						"1"
 					]
 				}
 			},
@@ -66,21 +60,15 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3001/books/:1",
+					"raw": "http://localhost:3000/books/7",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "3001",
+					"port": "3000",
 					"path": [
 						"books",
-						":1"
-					],
-					"variable": [
-						{
-							"key": "1",
-							"value": ""
-						}
+						"7"
 					]
 				}
 			},
@@ -92,12 +80,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3001/books",
+					"raw": "http://localhost:3000/books",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "3001",
+					"port": "3000",
 					"path": [
 						"books"
 					]
@@ -112,7 +100,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"city\": \"Paris\",\r\n  \"name\": \"Book Corner\",\r\n  \"contactNumber\": \"123-456-7890\",\r\n  \"email\": \"bookcorner@example.com\",\r\n  \"Address\": \"789 Rue de Livres\"\r\n}",
+					"raw": "{\r\n  \"city\": \"Paris\",\r\n  \"name\": \"Book ahmad\",\r\n  \"contactNumber\": \"123-456-7890\",\r\n  \"email\": \"ahmad@example.com\",\r\n  \"Address\": \"789 Rue de \"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -120,12 +108,12 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3001/bookshops",
+					"raw": "http://localhost:3000/bookshops",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "3001",
+					"port": "3000",
 					"path": [
 						"bookshops"
 					]
@@ -139,21 +127,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3001/bookshops/:1",
+					"raw": "http://localhost:3000/bookshops/2",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "3001",
+					"port": "3000",
 					"path": [
 						"bookshops",
-						":1"
-					],
-					"variable": [
-						{
-							"key": "1",
-							"value": ""
-						}
+						"2"
 					]
 				}
 			},
@@ -165,14 +147,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3001/bookshops/cities",
+					"raw": "http://localhost:3000/bookshop/cities",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "3001",
+					"port": "3000",
 					"path": [
-						"bookshops",
+						"bookshop",
 						"cities"
 					]
 				}
@@ -185,16 +167,16 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3001/bookshops/name/Book Ahmad",
+					"raw": "http://localhost:3000/bookshops/name/ martin",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "3001",
+					"port": "3000",
 					"path": [
 						"bookshops",
 						"name",
-						"Book Ahmad"
+						" martin"
 					]
 				}
 			},
@@ -206,16 +188,16 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3001/bookshops/email/ahmad.m.nassarr@gmail.com",
+					"raw": "http://localhost:3000/bookshops/email/readersparadise@example.com",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "3001",
+					"port": "3000",
 					"path": [
 						"bookshops",
 						"email",
-						"ahmad.m.nassarr@gmail.com"
+						"readersparadise@example.com"
 					]
 				}
 			},
@@ -228,7 +210,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"name\": \"Updated Bookshop Name\"\r\n}",
+					"raw": "{\r\n  \"name\": \" martin\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -236,15 +218,15 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3001/bookshops/1/name",
+					"raw": "http://localhost:3000/bookshops/2/name",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "3001",
+					"port": "3000",
 					"path": [
 						"bookshops",
-						"1",
+						"2",
 						"name"
 					]
 				}
@@ -258,7 +240,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"email\": \"ahmadmajed078@gmail.com\"\r\n}",
+					"raw": "{\r\n  \"email\": \"ahmadmajed0784@gmail.com\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -266,15 +248,15 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3001/bookshops/1/email",
+					"raw": "http://localhost:3000/bookshops/2/email",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "3001",
+					"port": "3000",
 					"path": [
 						"bookshops",
-						"1",
+						"2",
 						"email"
 					]
 				}
@@ -287,15 +269,15 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3001/bookshops/1",
+					"raw": "http://localhost:3000/bookshops/2",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "3001",
+					"port": "3000",
 					"path": [
 						"bookshops",
-						"1"
+						"2"
 					]
 				}
 			},
