@@ -211,7 +211,7 @@ app.get("/bookshops/:id", (req, res) => {
 });
 
 // Get all cities
-app.get("/bookshops/cities", (req, res) => {
+ app.get("/bookshop/cities", (req, res) => {
     const query = "SELECT DISTINCT city FROM bookshop";
     
     connection.query(query, (err, results) => {
@@ -220,7 +220,17 @@ app.get("/bookshops/cities", (req, res) => {
         }
         res.json(results);
     });
-});
+}); 
+/* app.get("/bookshop/cities", (req, res) => {
+    const query = "SELECT city FROM bookshop";
+    
+    connection.query(query, (err, results) => {
+        if (err) {
+            return res.status(500).json({ error: "Error retrieving cities", details: err.message });
+        }
+        res.json(results);
+    });
+}); */
 
 // Get bookshop by name
 app.get("/bookshops/name/:name", (req, res) => {
@@ -345,7 +355,7 @@ app.delete("/bookshops/:id", (req, res) => {
 
 
 // Start the server
-const port = 3001;
+const port = 3000;
 app.listen(port, () => {
     console.log(`Server has been started on http://localhost:${port}`);
 });
